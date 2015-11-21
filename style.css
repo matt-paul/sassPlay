@@ -3,7 +3,10 @@ h1, p {
   margin: 10%; }
 
 body {
-  background: #00007d; }
+  background: #00007d;
+  border-radius: 10%;
+  border: 5px solid #db2b2b;
+  padding: 10%; }
 
 .grad {
   padding: 1%;

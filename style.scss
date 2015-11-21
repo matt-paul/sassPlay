@@ -4,9 +4,17 @@ $white:#ffffff;
 $darkblue: $blue - 50;
 $margin:5%;
 
+@mixin commonTraits {
+  border-radius: 10%;
+  border: 5px solid $red;
+  padding: 10%;
+}
 h1, p {color:$white; margin:$margin + 5%;}
 
-body { background:$darkblue; }
+body {
+  background:$darkblue;
+  @include commonTraits;
+}
 
 .grad {
   padding: 1%;
