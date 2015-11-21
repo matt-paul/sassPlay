@@ -1,6 +1,7 @@
 h1, p {
   color: #ffffff;
-  margin: 10%; }
+  margin: 10%;
+  font-size: 1.4rem; }
 
 body {
   background: #00007d;
@@ -14,6 +15,6 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2000af), to(#00007d)); }
   .grad .p2 a {
     color: #db2b2b;
-    font-size: 20px; }
+    font-size: 1.8rem; }
 
 /*# sourceMappingURL=style.css.map */

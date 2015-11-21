@@ -9,7 +9,11 @@ $margin:5%;
   border: 5px solid $red;
   padding: 10%;
 }
-h1, p {color:$white; margin:$margin + 5%;}
+h1, p {
+  color:$white;
+  margin:$margin + 5%;
+  font-size:1.4rem;
+}
 
 body {
   background:$darkblue;
@@ -23,6 +27,6 @@ body {
   from($blue), to($darkblue));
 
   .p2 {
-    a {color:$red; font-size:20px;}
+    a {color:$red; font-size:1.8rem;}
   }
 }
